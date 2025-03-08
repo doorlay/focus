@@ -1,0 +1,2 @@
+# Focus - Browser Extension
+Focus is a simple browser extension that blocks undesired websites while your Pomodoro timer is running. Forked from [Tomato Clock](https://github.com/samueljun/tomato-clock?tab=readme-ov-file), the browser extension now has a "Blocklist" button where you can add websites to block for the duration of each "Tomato" interval, allowing for more focused work. Focus is currently available only for Firefox, and can be downloaded here. Pull requests are welcome.
