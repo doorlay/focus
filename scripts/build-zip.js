@@ -8,7 +8,7 @@ const DEST_DIR = path.join(__dirname, "../dist");
 const DEST_ZIP_DIR = path.join(__dirname, "../dist-zip");
 
 const extractExtensionData = () => {
-  const extPackageJson = require("../old-focus/package.json");
+  const extPackageJson = require("../package.json");
 
   return {
     name: extPackageJson.name,

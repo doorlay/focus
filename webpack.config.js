@@ -3,7 +3,7 @@ const CleanWebpackPlugin = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 
-const { version } = require("./old-focus/package.json");
+const { version } = require("./package.json");
 
 module.exports = {
   mode: "development",
@@ -12,6 +12,7 @@ module.exports = {
     panel: "./src/panel/panel.js",
     stats: "./src/stats/stats.js",
     options: "./src/options/options.js",
+    blocklist: "./src/blocklist/blocklist.js",
   },
   output: {
     path: path.resolve(__dirname, "dist"),

@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Blocklist - Focus</title>
     </head>
     <body>
-
+        <div class="container">
+            <h1 class="mt-3">Blocklist - Focus</h1>
+            <hr>
+            <p>Enter all domains you wish to block while your Pomodoro timer is running, one per line. The exact domain name (not full URL) is required. </p>
+            <p>For example, if you want to block Facebook, Instagram and Gmail, you would enter:
+                <pre><code>
+                    facebook.com
+                    instagram.com
+                    mail.google.com
+                </code></pre>
+            </p>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                <span class="input-group-text">Blocklist</span>
+                </div>
+                <textarea class="form-control" id="blocklist-text" aria-label="With textarea"></textarea>
+            </div> 
+        </div>
     </body>
 </html>

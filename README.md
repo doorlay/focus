@@ -16,3 +16,5 @@ To temporarily load the extension in a normal Firefox instance:
 1. Go to `about:debugging`
 2. Click `Load Temporary Add-on`
 3. Load the `dist` folder
+
+Your local changes should now take effect in real time in the browser.
