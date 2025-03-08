@@ -1,7 +1,7 @@
 {
-  "name": "tomato-clock",
-  "version": "6.0.2",
-  "description": "Tomato Clock is a simple browser extension for managing your productivity.",
+  "name": "focus",
+  "version": "1.0.0",
+  "description": "Focus is a simple browser extension that blocks undesired websites while your Pomodoro timer is running.",
   "main": "src/background.js",
   "scripts": {
     "build": "webpack --mode=production && node ./scripts/build-zip.js",
@@ -13,17 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/samueljun/tomato-clock.git"
+    "url": "git+ssh://git@github.com/doorlay/focus.git"
   },
   "keywords": [
     "WebExtension"
   ],
-  "author": "Samuel Jun",
+  "author": "Nicholas Doorlay",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/samueljun/tomato-clock/issues"
-  },
-  "homepage": "https://github.com/samueljun/tomato-clock#readme",
+  "homepage": "https://github.com/doorlay/focus#readme",
   "dependencies": {
     "bootstrap": "^4.6.0",
     "chart.js": "^2.9.4",
