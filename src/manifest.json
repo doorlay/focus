@@ -3,7 +3,7 @@
   "name": "Focus",
   "version": "__REPLACED_ON_BUILD__",
   "author": "Nicholas Doorlay",
-  "description": "A simple browser extension that combines Tomato Clock with website blocking.",
+  "description": "A simple browser extension that blocks undesired websites while your Pomodoro timer is running",
 
   "applications": {
     "gecko": {
@@ -34,10 +34,10 @@
   },
 
   "background": {
-    "scripts": ["/background/background.js"]
+    "scripts": ["/background/background.js", "/background/blocking.js"]
   },
 
-  "permissions": ["notifications", "storage"],
+  "permissions": ["notifications", "storage", "activeTab"],
 
   "commands": {
     "start-tomato": {
