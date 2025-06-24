@@ -13,6 +13,7 @@ module.exports = {
     stats: "./src/stats/stats.js",
     options: "./src/options/options.js",
     blocklist: "./src/blocklist/blocklist.js",
+    blocker: "./src/content/blocker.js",
   },
   output: {
     path: path.resolve(__dirname, "dist"),

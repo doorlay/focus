@@ -34,9 +34,15 @@
   },
 
   "background": {
-    "scripts": ["/background/background.js", "/background/blocking.js"]
+    "scripts": ["/background/background.js"]
   },
-
+  "content_scripts": [
+	{
+		"matches": ["<all_urls>"],
+		"js": ["blocker/blocker.js"],
+		"run_at": "document_start"
+	}
+  ],
   "permissions": ["notifications", "storage", "activeTab"],
 
   "commands": {

@@ -17,5 +17,6 @@ document.addEventListener("DOMContentLoaded", function (){
         console.log("button clicked!");
         const blockedWebsites = blockedWebsitesTextArea.value.split("\n");
         localStorage.setItem("blockedWebsites", blockedWebsites);
+	browser.storage.local.set({"blockedWebsites", blockedWebsites});
     });
 });
